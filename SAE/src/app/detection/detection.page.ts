@@ -30,7 +30,7 @@ export class DetectionPage implements OnInit {
   }
 
   ngAfterViewInit() {
-    const screenHeight = window.innerHeight
+    const screenHeight = window.innerHeight;
     const screenWidth = window.innerWidth;
     // Accéder à la caméra
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
