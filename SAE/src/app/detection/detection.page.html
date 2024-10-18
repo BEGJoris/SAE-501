@@ -1,13 +1,12 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>detection</ion-title>
+    <ion-title>Détection</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">detection</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <video #video autoplay></video>
+  <canvas #canvas style="position: absolute; top: 0; left: 0"></canvas>
 </ion-content>
+
+
